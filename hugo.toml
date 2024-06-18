@@ -1,13 +1,12 @@
-baseURL = "https://michaelneuper.github.io/hugo-texify3/"
-disqusShortname = ""
+baseURL = "https://gmax9.github.io/hugo-texify3/"
+languageCode = "en"
+title = "TeXify3"
+theme = "hugo-texify3"
 enableGitInfo = true
 enableRobotsTXT = true
 hasCJKLanguage = true
-languageCode = "en"
 paginate = 5
 rssLimit = 10
-theme = "hugo-texify3"
-title = "TeXify3"
 
 [author]
 name = "Michael Neuper"

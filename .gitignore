@@ -3,3 +3,4 @@ package.json
 package-lock.json
 resources
 public
+.hugo_build.lock
