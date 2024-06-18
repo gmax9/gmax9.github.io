@@ -28,6 +28,12 @@ pre = """
 """
 weight = 1
 
+[[menu.main]]
+identifier = "lib"
+name = "lib"
+url = "/lib/"
+weight=2
+
 #[[menu.main]]
 #identifier = "rss"
 #name = "RSS"

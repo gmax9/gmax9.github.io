@@ -68,8 +68,12 @@ const disableDarkMode = () => {
   localStorage.setItem("darkMode", null);
 };
 
+if (darkMode === "enabled") {
+    enableDarkMode();
+}
+
 // Enable by Default
-enableDarkMode();
+// enableDarkMode();
 
 darkModeToggle.forEach((toggle) => {
   toggle.addEventListener("click", () => {

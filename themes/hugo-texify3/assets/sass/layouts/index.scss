@@ -6,6 +6,7 @@
   display: grid;
   grid-template-columns: 3fr 1fr;
   gap: $margin * 2;
+  margin: 0 25%;
 
   @media (max-width: $mobile-breakpoint) {
     grid-template-columns: 1fr;
@@ -20,6 +21,7 @@
 
     h3.taxonomy > a {
       color: var(--fg);
+      font-size: medium;
 
       &:visited {
         color: var(--fg);
@@ -42,6 +44,7 @@
       border-radius: $radius;
 
       li a {
+        font-size: small;
         text-decoration: none;
         display: block;
         padding: 2px 12px;

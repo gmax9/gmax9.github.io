@@ -1,13 +1,13 @@
 ---
 author: "Hugo Authors"
-title: ""
+title: "Test"
 date: "2024-06-18"
 description: ""
 tags: [
     "hpc",
     "network traffic analysis",
     "singularity",
-    "containerization",
+    "containerization"
 ]
 ---
 
@@ -15,7 +15,7 @@ tags: [
 sudo apt-get update && sudo apt-get install squashfs-tools 
 ```
 
-```bash
+```
 export VERSION=1.17.2 OS=linux ARCH=amd64
 wget https://dl.google.com/go/go$VERSION.$OS-$ARCH.tar.gz
 sudo tar -C /usr/local -xzvf go$VERSION.$OS-$ARCH.tar.gz
