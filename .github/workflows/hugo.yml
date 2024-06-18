@@ -49,8 +49,8 @@ jobs:
           node-version: '20'
         
       - name: Install Node.js dependencies
-        run: "npm install autoprefixer postcss-cli postcss --location=global"
-
+        run: "npm --prefix=./themes/hugo-texify3 install"
+        
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
