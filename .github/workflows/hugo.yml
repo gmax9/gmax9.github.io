@@ -55,7 +55,7 @@ jobs:
       #     node-version: '20'
         
       - name: Install Node.js dependencies
-        run: "npm install autoprefixer postcss-cli postcss"
+        run: "npm install autoprefixer postcss-cli postcss postcss-import"
         
       - name: Build with Hugo
         env:
